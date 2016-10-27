@@ -1,0 +1,48 @@
+﻿Build started 2016/10/27 19:18:04.
+     1>Project "C:\Users\Jeffrey Hoa\Desktop\code-z5004703\AR.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinclude /IMain /IObjRecog /IOverlay /ITracking /Iinclude\CV /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main\commonCvFunctions.cpp Main\guiAR.cpp Main\main.cpp ObjRecog\controlOR.cpp ObjRecog\imageDB.cpp ObjRecog\visualWords.cpp Overlay\viewModel.cpp Tracking\kltTrackingOBJ.cpp Tracking\trackingOBJ.cpp
+         commonCvFunctions.cpp
+     1>Main\commonCvFunctions.cpp(274): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main\commonCvFunctions.cpp(276): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main\commonCvFunctions.cpp(290): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main\commonCvFunctions.cpp(292): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Main\commonCvFunctions.cpp(302): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Main\commonCvFunctions.cpp(304): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         guiAR.cpp
+     1>c:\users\jeffrey hoa\desktop\code-z5004703\include\cv\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>Main\guiAR.cpp(333): warning C4805: '==' : unsafe mix of type 'boolean' and type 'bool' in operation
+         main.cpp
+     1>Main\main.cpp(87): warning C4101: 'start_time' : unreferenced local variable
+     1>Main\main.cpp(87): warning C4101: 'end_time' : unreferenced local variable
+         controlOR.cpp
+         imageDB.cpp
+     1>ObjRecog\imageDB.cpp(20): warning C4305: '=' : truncation from 'double' to 'float'
+         visualWords.cpp
+     1>ObjRecog\visualWords.cpp(20): warning C4305: '=' : truncation from 'double' to 'float'
+         viewModel.cpp
+         kltTrackingOBJ.cpp
+         trackingOBJ.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jeffrey Hoa\Desktop\code-z5004703\\bin\AR.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:lib /LIBPATH:lib\CV opencv_core249.lib opencv_imgproc249.lib opencv_highgui249.lib opencv_calib3d249.lib opencv_video249.lib opencv_features2d249.lib opencv_nonfree249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jeffrey Hoa\Desktop\code-z5004703\\bin\AR.pdb" /SUBSYSTEM:CONSOLE /OPT:NOREF /OPT:NOICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jeffrey Hoa\Desktop\code-z5004703\\bin\AR.lib" /MACHINE:X86 /SAFESEH Release\commonCvFunctions.obj
+         Release\guiAR.obj
+         Release\main.obj
+         Release\controlOR.obj
+         Release\imageDB.obj
+         Release\visualWords.obj
+         Release\viewModel.obj
+         Release\kltTrackingOBJ.obj
+         Release\trackingOBJ.obj
+         Generating code
+     1>c:\users\jeffrey hoa\desktop\code-z5004703\objrecog\imagedb.cpp(144): warning C4715: 'cv9417::or::imageDB::getVacantKptId' : not all control paths return a value
+     1>c:\users\jeffrey hoa\desktop\code-z5004703\main\guiar.cpp(399): warning C4700: uninitialized local variable 'start_identify' used
+         Finished generating code
+         AR.vcxproj -> C:\Users\Jeffrey Hoa\Desktop\code-z5004703\\bin\AR.exe
+     1>Done Building Project "C:\Users\Jeffrey Hoa\Desktop\code-z5004703\AR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.56

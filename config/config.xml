@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<VisualWord>
+  <visualWord>config/visualWord.bin</visualWord>
+  <index>config/vw_index.txt</index>
+</VisualWord>
+<ObjectDB>config/db.txt</ObjectDB>
+<camera_matrix>config/camera_matrix_qcam.txt</camera_matrix>
+<focal_length>0.5</focal_length>
+<max_query_size>320</max_query_size>
+<mirror_mode>true</mirror_mode>
+</opencv_storage>
